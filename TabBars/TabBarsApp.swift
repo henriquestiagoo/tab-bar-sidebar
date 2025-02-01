@@ -12,6 +12,7 @@ struct TabBarsApp: App {
     var body: some Scene {
         WindowGroup {
             AppView()
+                .ignoresSafeArea()
         }
     }
 }
